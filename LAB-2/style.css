@@ -1,0 +1,258 @@
+/* =========================
+   General
+========================= */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f5f7fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+section {
+    scroll-margin-top: 80px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #212529;
+}
+
+
+/* =========================
+   Navbar
+========================= */
+
+.navbar {
+    box-shadow: 0 2px 8px #aaa;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+
+/* =========================
+   Header
+========================= */
+
+.header {
+    background: linear-gradient(135deg, #0d6efd, #0048a8);
+    color: white;
+    padding: 70px 20px;
+}
+
+.header h1 {
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 18px;
+}
+
+
+/* =========================
+   Profile Image
+========================= */
+
+.profile-img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+
+    border: 6px solid white;
+    border-radius: 50%;
+
+    box-shadow: 0 5px 20px #999;
+
+    transition: 0.3s;
+}
+
+.profile-img:hover {
+    transform: scale(1.05);
+}
+
+
+/* =========================
+   About Section
+========================= */
+
+#about {
+    padding-top: 15px;
+}
+
+#about h2 {
+    color: #0d6efd;
+}
+
+#about p {
+    font-size: 17px;
+}
+
+
+/* =========================
+   Hobbies
+========================= */
+
+.hobbies {
+    background-color: white;
+    padding: 25px 40px;
+
+    border: 1px solid #ddd;
+    border-radius: 12px;
+
+    box-shadow: 0 3px 10px #ddd;
+}
+
+.hobbies li {
+    margin: 10px 0;
+}
+
+
+/* =========================
+   Skills
+========================= */
+
+.skills-card {
+    background-color: white;
+    padding: 25px;
+
+    border-radius: 12px;
+
+    border: 1px solid #ddd;
+
+    box-shadow: 0 3px 10px #ddd;
+
+    margin-bottom: 20px;
+}
+
+.skill {
+    margin-bottom: 20px;
+}
+
+.skill-name {
+    display: flex;
+    justify-content: space-between;
+
+    font-weight: bold;
+
+    margin-bottom: 7px;
+}
+
+.progress {
+    height: 12px;
+    border-radius: 10px;
+    background-color: #e9ecef;
+}
+
+.progress-bar {
+    border-radius: 10px;
+}
+
+
+/* =========================
+   Profile Card
+========================= */
+
+.profile-card {
+    border: none;
+    border-radius: 15px;
+
+    box-shadow: 0 5px 18px #ddd;
+
+    transition: 0.3s;
+}
+
+.profile-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px #ccc;
+}
+
+
+/* =========================
+   Education Table
+========================= */
+
+.table {
+    background-color: white;
+    box-shadow: 0 3px 10px #ddd;
+}
+
+.table th {
+    text-align: center;
+}
+
+.table td {
+    vertical-align: middle;
+}
+
+
+/* =========================
+   Buttons
+========================= */
+
+.btn {
+    border-radius: 8px;
+    padding: 10px 20px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+}
+
+
+/* =========================
+   Contact / Social
+========================= */
+
+.social-links a {
+    margin: 5px;
+}
+
+
+/* =========================
+   Footer
+========================= */
+
+.footer {
+    background-color: #212529;
+    color: white;
+    padding: 25px;
+    margin-top: 30px;
+}
+
+.footer p {
+    margin: 0;
+}
+
+
+/* =========================
+   Mobile Responsive
+========================= */
+
+@media (max-width: 768px) {
+
+    .header h1 {
+        font-size: 35px;
+    }
+
+    .profile-img {
+        width: 180px;
+        height: 180px;
+        margin-bottom: 25px;
+    }
+
+    #about {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .hobbies {
+        padding: 20px 30px;
+    }
+}
